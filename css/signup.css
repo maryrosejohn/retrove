@@ -15,7 +15,7 @@
     border-radius: 10px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
     width: 400px;
-    height: 350px;
+    height: 450px;
     background-color: #ffffff;
     padding: 10px 30px;
   }
@@ -41,7 +41,7 @@
   }
 
   .form button {
-    background-color:#e85a48;
+    background-color: #e85a48;
     color: #ffffff;
     font-size: 16px;
     outline: none;
