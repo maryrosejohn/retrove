@@ -78,12 +78,7 @@ body {
   .back-button:hover {
     background-color: #ccc;
   }
-  const backButton = document.querySelector('.back-button');
-
-backButton.addEventListener('click', () => {
-  // Redirect to your desired previous page URL
-  window.location.href = "your_previous_page_url";
-});
+  
 
   
 
