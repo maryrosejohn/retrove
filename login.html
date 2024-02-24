@@ -7,11 +7,13 @@
     <title>Login</title>
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
-    <link rel="stylesheet" href="css/style_index.css">
-    <link rel="stylesheet" href="css/demo.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/categories.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/style_index.css">
+   
+    <link rel="stylesheet" href="css/nav.css">
+    
+    
+    
     
     
 </head>
@@ -37,18 +39,28 @@
     </nav>
   <!-- navbar --> 
 
-  <div class="form">
-    <h2>Login Here</h2>
-    <input type="email" name="email" placeholder="Enter Email Here">
-    <input type="password" name="" placeholder="Enter Password Here">
-    <button class="btnn"><a href="#">Login</a></button>
+  <div class="container">
+    <div class="card">
+      <div class="card_title">
+        <div class="logo">
+          <h3><a href="retrove.html" class="logo-name">Retrove</a></h3>
+        </div>
+        <h1>Login</h1>
+        <span>Don't have an account? <a href="signup.html">Sign Up</a></span>
+      </div>
+      <div class="form">
+        
+      <form action="myaccount.html" method="post">
+        
+        <input type="email" name="email" placeholder="Email" id="email" />
+        <input type="password" name="password" placeholder="Password" id="password" />
+        <button>Login</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
 
-    <p class="link">Don't have an account<br>
-  <a href="signup.html">Sign up</a> here</p>
-    <p class="liw"></p>
-
-    
-</div>
   <script type="text/javascript" src="js/nav.js"></script>
   <script src="js/login.js"></script>
 </body>
