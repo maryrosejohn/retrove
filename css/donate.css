@@ -1,0 +1,82 @@
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header,
+footer {
+    background-color: #f84258;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.donate-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.view-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="file"] {
+    margin-bottom: 1rem;
+    border: 1px solid #f84258;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+button,
+a {
+    padding: 0.5rem 1rem;
+    background-color: #f84258;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover,
+a:hover {
+    background-color: #f84258;
+}
+.back-button{
+    display:inline-block;
+    padding:0.5rem 1rem;
+    background-color:f84258;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    text-decoration:none;
+    transition:background-color 0.3s ease;
+}
+.back-button:hover{
+    background-color:#fff
+}
+
